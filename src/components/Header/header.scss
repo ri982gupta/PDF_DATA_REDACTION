@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+
+.headerContainer {
+
+  padding: 9px;
+  background-color: $primary;
+  width: 100%;
+
+  h1 {
+    
+    color: #fff;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 600px;
+
+    img{
+      margin-left: 450px;
+    }
+  }
+
+  .icon{
+    color:white;
+  }
+  .popup-box{
+    display:flex;
+    flex-direction: column;
+    color: white;
+  }
+
+}
